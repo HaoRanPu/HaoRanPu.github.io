@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Test
+title: Harry Pu
+description: "puh@myumanitoba.ca"
 ---
 
 # Test
