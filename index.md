@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Harry Pu
-description: "puh@myumanitoba.ca"
 ---
 
-# Test
+# EDUCATION
+
+**Bachelor of Science: Computer Science Major** <br />
+University of Manitoba - Winnipeg, MB
