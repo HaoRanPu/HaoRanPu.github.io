@@ -27,7 +27,7 @@ University of Manitoba – Winnipeg, MB
 
 # Work Experience
 
-#### **Grocery Associate** <div style="float: right;">**June – September 2019**</div>
+#### **Grocery Associate &emsp; June – September 2019**
 
 Family Foods – Winnipeg, MB
 
@@ -36,7 +36,7 @@ Family Foods – Winnipeg, MB
 - Demonstrated store knowledge by memorizing aisles and products to provide timely and accurate assistance to customers
 - Participated in maintaining store cleanliness through mopping, sweeping, dusting
 
-#### **Stock Clerk Intern** <div style="float: right;">**May – June 2018**</div>
+#### **Stock Clerk Intern &emsp; May – June 2018**
 
 Dollar Tree – Winnipeg, MB
 
