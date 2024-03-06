@@ -19,11 +19,11 @@ This README is a comprehensive guide for hosting and formatting your resume usin
 
 ## Instructions
 
-#### **Use a lightweight markup language**
+### **Use a lightweight markup language**
 
-#### **Share/host documents on a distributed version control system**
+### **Share/host documents on a distributed version control system**
 
-#### **Share/host documents on a distributed version control system**
+### **Share/host documents on a distributed version control system**
 
 ## More Resources
 
