@@ -19,11 +19,22 @@ This README is a comprehensive guide for hosting and formatting your resume usin
 
 ## Instructions
 
-### **Use a lightweight markup language**
+### **Why use a lightweight markup language?**
 
-### **Share/host documents on a distributed version control system**
+Using a lightweight markup language, such as Markdown or reStructuredText, offers several advantages in technical communication. As stated in Etter's book, these languages are designed to simplify the writing process. They are simple and easy to learn and use, allowing writers to focus more on content rather than complex formatting. Moreover, lightweight markup languages such as Markdown can be translated into HTML.; therefore, documents created with Markdown can be easily published online, reaching a wider audience. Lastly, the barriers to entry for lightweight markup languages are low, as writers do not need expensive specialist editors or extensive technical knowledge to participate.
 
-### **Share/host documents on a distributed version control system**
+### **Share/host resume on a distributed version control system**
+
+Sharing or hosting a resume on a distributed version control system (DVCS) aligns with principles outlined in Andrew Etter's "Modern Technical Writing":
+
+1. **Version Control**: DVCS like Git allows for tracking changes, ensuring the resume reflects the latest information.
+2. **Collaboration**: Enables feedback and refinement from peers, leading to stronger resumes.
+3. **Accessibility and Distribution**: Makes the resume easily accessible to potential employers and recruiters.
+4. **Documentation as Code**: Treats the resume as a dynamic document undergoing continuous improvement, akin to software code.
+
+#### **How to share/host resume on GitHub? (Step-by-Step Guide)**
+
+### **Format resume with a static site generator**
 
 ## More Resources
 
