@@ -34,6 +34,10 @@ Sharing or hosting a resume on a distributed version control system (DVCS) align
 
 #### **How to share/host resume on GitHub? (Step-by-Step Guide)**
 
+1. Create a new repository
+2. Upload resume
+3. Access the resume
+
 ### **Format resume with a static site generator**
 
 ## More Resources
@@ -64,3 +68,5 @@ Jekyll
 - **Portability and Platform Independence**: Markdown documents are platform-independent and can be rendered into HTML, PDF, or other formats using static site generators. This makes Markdown ideal for creating documentation that can be accessed across various devices and platforms without compatibility issues.
 
 **Why is my resume not showing up?**
+
+- Ensure that your resume is named `index.md`.
