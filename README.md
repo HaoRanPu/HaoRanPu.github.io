@@ -42,10 +42,12 @@ Sharing or hosting a resume on a distributed version control system (DVCS) align
    - Optionally, add a README file by selecting the `Add a README file` checkbox.
      - Including a README file in the resume repository is recommended because it's where you would include some documentation about your repository. For example, you might provide a brief overview of the resume's contents, or if you want feedback, you might include guidance on how others can give feedback on your resume. It serves as a quick guide for anyone accessing the repository.
    - Click `Create repository` to create the repository.
-     ![Create a new repository][./Gif/create_repository.gif]
-1. Upload resume
-1. Access the resume
-1. Clone to GitHub Desktop
+
+![Create a new repository](./Gif/create_repository.gif)
+
+2. Upload resume
+3. Access the resume
+4. Clone to GitHub Desktop
 
 ### **Format resume with a static site generator**
 
