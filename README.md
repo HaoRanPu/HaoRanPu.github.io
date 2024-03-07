@@ -44,8 +44,16 @@ Sharing or hosting a resume on a distributed version control system (DVCS) align
    - Click `Create repository` to create the repository. <br />
      ![Create a new repository](./Gif/create_repository.gif)
 2. Upload resume
-3. Access the resume
-4. Clone to GitHub Desktop
+   - Go to your newly created repository.
+   - Rename your resume in Markdown style to `index.md`.
+   - Click on the `Add file` button, then select `Upload files`.
+   - Drag and drop the `index.md` into the designated area or click on `choose your files` to select it manually.
+   - Add a commit message describing the upload (e.g., "Added resume").
+   - Finally, click `Commit changes`. <br />
+     ![Upload resume](./Gif/upload_resume.gif)
+3. Access your resume
+   - Your can access your resume at `https://`username`.github.io/`
+     ![Upload resume](./Gif/access_resume.gif)
 
 ### **Format resume with a static site generator**
 
