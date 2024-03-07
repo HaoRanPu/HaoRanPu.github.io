@@ -59,20 +59,26 @@ In "Modern Technical Writing," Andrew Etter highlights how static site generator
 
 #### **Configure Jekyll Theme on GitHub (Step-by-Step Guide)**
 
+GitHub has some built-in Jekyll themes that you can use for your static websites. To utilize them, creating a `_config.yml` file in your repository. In this file, specify your preferred theme by adding "`theme: jekyll-theme-`yourTheme". Replace "yourTheme" with the name of your desired theme. You can find more about Jekyll in the "[More Resources](#more-resources)" section. In this guide, I am going to use the theme [architect](https://github.com/pages-themes/architect).
+
 1. Go to your repository.
 2. Click on the `Add file` button, then select `Create new file`.
 3. Name the File and Add Content:
    - In the text field for the file name, type `_config.yml`.
    - In the content area, add the following lines:
    ```
-   title: Harry Pu
-   description: puh@myumanitoba.ca
+   title: your title
+   description: your desciption
    theme: jekyll-theme-architect
    ```
 4. Click on the `Commit Changes...` button.
 5. Optionally, you can change the commit message if you like. Additionally, you can add a description to provide more context about the changes.
 6. Finally, click `Commit changes`. <br />
    ![Add Jekyll Theme](./Gif/add_jekyll_theme.gif)
+
+### **Final Resume Website Appearance**
+
+![Final Resume Website Appearance](./Gif/resume.gif)
 
 ## More Resources
 
