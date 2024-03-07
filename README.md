@@ -14,8 +14,6 @@ This README is a comprehensive guide for hosting and formatting your resume usin
    - Hosting a resume on GitHub requires a GitHub account. If you don't have one, sign up for a free account on [GitHub's website](https://github.com/). Having a GitHub account allows you to create repositories, upload files, and showcase your projects, including your resume.
 4. Prepared Resume
    - Before proceeding, ensure you have your resume prepared in Markdown style.
-5. GitHub Desktop (Optional)
-   - [GitHub Desktop](https://desktop.github.com/) is a graphical user interface (GUI) for managing your GitHub repositories. While not mandatory, in this guide, we will utilize GitHub Desktop for managing GitHub repositories and uploading your resume, but feel free to use the command line interface if you prefer.
 
 ## Instructions
 
@@ -56,6 +54,25 @@ Sharing or hosting a resume on a distributed version control system (DVCS) align
      ![Upload resume](./Gif/access_resume.gif)
 
 ### **Format resume with a static site generator**
+
+In "Modern Technical Writing," Andrew Etter highlights how static site generators such as Jekyll or Hugo make technical documentation easier. They convert Markdown content into static websites, offering flexibility in designing and customizing layout. GitHub automatically builds websites using Jekyll when you host them on GitHub Pages. This means that once you push your Markdown files to your GitHub repository, GitHub takes care of the rest. It runs Jekyll behind the scenes to convert your Markdown content into a static website, making it accessible to viewers online.
+
+#### **Configure Jekyll Theme on GitHub (Step-by-Step Guide)**
+
+1. Go to your repository.
+2. Click on the `Add file` button, then select `Create new file`.
+3. Name the File and Add Content:
+   - In the text field for the file name, type `_config.yml`.
+   - In the content area, add the following lines:
+   ```
+   title: Harry Pu
+   description: puh@myumanitoba.ca
+   theme: jekyll-theme-architect
+   ```
+4. Click on the `Commit Changes...` button.
+5. Optionally, you can change the commit message if you like. Additionally, you can add a description to provide more context about the changes.
+6. Finally, click `Commit changes`. <br />
+   ![Add Jekyll Theme](./Gif/add_jekyll_theme.gif)
 
 ## More Resources
 
