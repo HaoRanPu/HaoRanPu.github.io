@@ -12,10 +12,10 @@ This README is a comprehensive guide for hosting and formatting your resume usin
    - Markdown is a simple yet powerful markup language used for formatting text. Acquiring knowledge about Markdown is essential for effectively utilizing it to format your resume. Familiarity with Markdown syntax allows you to structure your resume content efficiently, enhancing readability and presentation. To aid in your understanding of Markdown or to provide guidance for beginners, I have included some Markdown resources in the "[More Resources](#more-resources)" section.
 3. GitHub Account
    - Hosting a resume on GitHub requires a GitHub account. If you don't have one, sign up for a free account on [GitHub's website](https://github.com/). Having a GitHub account allows you to create repositories, upload files, and showcase your projects, including your resume.
-4. Prepared Resume
+4. Prepared Resume in Markdown
    - Before proceeding, ensure you have your resume prepared in Markdown style.
 
-## Instructions
+## Concept from Etter's Book
 
 ### **Why use a lightweight markup language?**
 
@@ -30,34 +30,36 @@ Sharing or hosting a resume on a distributed version control system (DVCS) align
 3. **Accessibility and Distribution**: Makes the resume easily accessible to potential employers and recruiters.
 4. **Documentation as Code**: Treats the resume as a dynamic document undergoing continuous improvement, akin to software code.
 
-#### **How to share/host resume on GitHub? (Step-by-Step Guide)**
-
-1. Create a new repository
-   - Log in to your GitHub account.
-   - Click on the `+` sign in the upper-right corner, then select `New repository`.
-   - Name your repository "username.`github.io`", replace the "username" with your actual GitHub username.
-   - Choose the `public` visibility
-   - Optionally, add a README file by selecting the `Add a README file` checkbox.
-     - Including a README file in the resume repository is recommended because it's where you would include some documentation about your repository. For example, you might provide a brief overview of the resume's contents, or if you want feedback, you might include guidance on how others can give feedback on your resume. It serves as a quick guide for anyone accessing the repository.
-   - Click `Create repository` to create the repository. <br />
-     ![Create a new repository](./Gif/create_repository.gif)
-2. Upload resume
-   - Go to your newly created repository.
-   - Rename your resume in Markdown style to `index.md`.
-   - Click on the `Add file` button, then select `Upload files`.
-   - Drag and drop the `index.md` into the designated area or click on `choose your files` to select it manually.
-   - Add a commit message describing the upload (e.g., "Added resume").
-   - Finally, click `Commit changes`. <br />
-     ![Upload resume](./Gif/upload_resume.gif)
-3. Access your resume
-   - Your can access your resume at `https://`username`.github.io/`
-     ![Upload resume](./Gif/access_resume.gif)
-
 ### **Format resume with a static site generator**
 
 In "Modern Technical Writing," Andrew Etter highlights how static site generators such as Jekyll or Hugo make technical documentation easier. They convert Markdown content into static websites, offering flexibility in designing and customizing layout. GitHub automatically builds websites using Jekyll when you host them on GitHub Pages. This means that once you push your Markdown files to your GitHub repository, GitHub takes care of the rest. It runs Jekyll behind the scenes to convert your Markdown content into a static website, making it accessible to viewers online.
 
-#### **Configure Jekyll Theme on GitHub (Step-by-Step Guide)**
+## Instructions
+
+### **How to share/host resume on GitHub? (Step-by-Step Guide)**
+
+1. Create a new repository
+   1. Log in to your GitHub account.
+   2. Click on the `+` sign in the upper-right corner, then select `New repository`.
+   3. Name your repository "username.`github.io`", replace the "username" with your actual GitHub username.
+   4. Choose the `public` visibility
+   5. Optionally, add a README file by selecting the `Add a README file` checkbox.
+      - Including a README file in the resume repository is recommended because it's where you would include some documentation about your repository. For example, you might provide a brief overview of the resume's contents, or if you want feedback, you might include guidance on how others can give feedback on your resume. It serves as a quick guide for anyone accessing the repository.
+   6. Click `Create repository` to create the repository. <br />
+      ![Create a new repository](./Gif/create_repository.gif)
+1. Upload resume
+   1. Go to your newly created repository.
+   2. Rename your resume in Markdown style to `index.md`.
+   3. Click on the `Add file` button, then select `Upload files`.
+   4. Drag and drop the `index.md` into the designated area or click on `choose your files` to select it manually.
+   5. Add a commit message describing the upload (e.g., "Added resume").
+   6. Click `Commit changes`. <br />
+      ![Upload resume](./Gif/upload_resume.gif)
+1. Access your resume
+   - You can access your resume at `https://`username`.github.io/`
+     ![Upload resume](./Gif/access_resume.gif)
+
+### **Configure Jekyll Theme on GitHub (Step-by-Step Guide)**
 
 GitHub has some built-in Jekyll themes that you can use for your static websites. To utilize them, creating a `_config.yml` file in your repository. In this file, specify your preferred theme by adding "`theme: jekyll-theme-`yourTheme". Replace "yourTheme" with the name of your desired theme. You can find more about Jekyll in the "[More Resources](#more-resources)" section. In this guide, I am going to use the theme [architect](https://github.com/pages-themes/architect).
 
@@ -73,7 +75,7 @@ GitHub has some built-in Jekyll themes that you can use for your static websites
    ```
 4. Click on the `Commit Changes...` button.
 5. Optionally, you can change the commit message if you like. Additionally, you can add a description to provide more context about the changes.
-6. Finally, click `Commit changes`. <br />
+6. Click `Commit changes`. <br />
    ![Add Jekyll Theme](./Gif/add_jekyll_theme.gif)
 
 ### **Final Resume Website Appearance**
