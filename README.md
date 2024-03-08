@@ -7,7 +7,7 @@ This README is a comprehensive guide for hosting and formatting your resume usin
 ## Prerequisites
 
 1. Resume
-   - Having a well-written and up-to-date resume is essential, and it is also easier to structure a well-crafted resume using Markdown.
+   - Having a well-written and up-to-date resume.
 2. Familiarity with Markdown
    - Markdown is a simple yet powerful markup language used for formatting text. Acquiring knowledge about Markdown is essential for effectively utilizing it to format your resume. Familiarity with Markdown syntax allows you to structure your resume content efficiently, enhancing readability and presentation. To aid in your understanding of Markdown or to provide guidance for beginners, I have included some Markdown resources in the "[More Resources](#more-resources)" section.
 3. GitHub Account
